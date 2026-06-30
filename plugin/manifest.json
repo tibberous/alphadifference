@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 5,
+  "id": "digital.tristate.alphadiff",
+  "name": "Alpha Diff",
+  "version": "0.1.0",
+  "main": "index.js",
+  "host": [
+    { "app": "PS", "minVersion": "24.0.0" }
+  ],
+  "entrypoints": [
+    {
+      "type": "command",
+      "id": "alphaDiff",
+      "label": { "default": "Alpha Diff (changed pixels to new layer)" }
+    },
+    {
+      "type": "command",
+      "id": "alphaDiffSoft",
+      "label": { "default": "Alpha Diff - Soft Glow (alpha = change amount)" }
+    }
+  ]
+}
